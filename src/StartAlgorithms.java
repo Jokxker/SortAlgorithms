@@ -10,7 +10,7 @@ public class StartAlgorithms {
         final long start = System.nanoTime();
         sortChoice.sort(arrSortChoice);
         final long end = System.nanoTime();
-        System.out.println("Input numbers ");
+        System.out.println("Enter numbers separated by a space: ");
         String[] str = new String[0];
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             str = reader.readLine().split(" ");
